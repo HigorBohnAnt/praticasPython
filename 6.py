@@ -130,3 +130,8 @@ for digito in numero:
     print(soma)
 '''
 # Resolução provavelmente errada kkkkk odeio python 
+
+num1 = int(input("Insira um numero: "))
+num2 = int(input("Insira um numero: "))
+soma = num1 + num2 
+print(soma)
