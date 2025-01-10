@@ -130,3 +130,18 @@ for digito in numero:
     print(soma)
 '''
 # Resolução provavelmente errada kkkkk odeio python 
+
+def con(nota):
+    if 8 <= nota <= 10:
+        return "A"
+    elif 6 <= nota < 8:
+        return "B"
+    elif 0 <= nota < 6:
+        return "C"
+    else:
+        return("Nota invalida")
+
+nota = float(input("Digite sua nota (0 a 10): "))
+conceito = con(nota)
+print(f"Esse é sua nota é: {nota} e seu conceito é {conceito}")
+
